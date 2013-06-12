@@ -20,4 +20,6 @@ object exec2 {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._;
   msort(List(2, -3, 4, -10, 1))((x, y) => x < y);System.out.println("""res1: List[Int] = """ + $show(res$1));$skip(48); val res$2 = 
   
   msort(List('a','c','b'))( (x,y) => x < y );System.out.println("""res2: List[Char] = """ + $show(res$2))}
+  
+  
 }

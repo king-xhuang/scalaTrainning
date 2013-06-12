@@ -21,4 +21,6 @@ object exec2 {
   msort(List(2, -3, 4, -10, 1))((x, y) => x < y)  //> res1: List[Int] = List(-10, -3, 1, 2, 4)
   
   msort(List('a','c','b'))( (x,y) => x < y )      //> res2: List[Char] = List(a, b, c)
+  
+  
 }
