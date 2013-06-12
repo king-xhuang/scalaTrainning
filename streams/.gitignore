@@ -1,4 +1,4 @@
-./**/target
-./**/bin
-./lib_managed
-./target
+**/target/
+**/bin/
+**/lib_managed/
+**/submission/
